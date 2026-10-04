@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How I Work – Digital Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Service Design – Group 3</p>
+        <h1>How I Work</h1>
+        <p class="subtitle">Digital prototype for immersion and usability testing</p>
+      </div>
+      <div class="privacy-badge">Private in this browser tab</div>
+    </header>
+
+    <section class="progress-area" aria-label="Progress">
+      <div id="stepText" class="step-text">Step 1 of 13</div>
+      <div class="progress-track">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+    </section>
+
+    <main id="app" class="card"></main>
+
+    <nav class="nav-row">
+      <button id="backBtn" class="btn btn-secondary" type="button">← Back</button>
+      <button id="nextBtn" class="btn btn-primary" type="button">Next →</button>
+    </nav>
+
+    <p class="footer-note">
+      Prototype only. Answers are kept only in the current browser tab and are cleared when the page is refreshed or closed.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
